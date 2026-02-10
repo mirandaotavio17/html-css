@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+      /*
+        Medidas Absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+
+        16px geralmente = 1em
+
+        recomendação oficial W3C: usar px ou em.
+        */
+        font-size: 1em ;
+        /* lighter, normal, bold, bolder*/
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-wight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-wight: bolder;
+            font-size: 1em;
+            font=style: italic;
+            */ 
+            font: italic bolder 3em 'Work Sans', sans-serif; 
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum porro quo rem voluptas sunt officia iusto nesciunt, voluptatum molestiae ab officiis laborum. Perspiciatis natus ab id alias explicabo ratione modi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, explicabo eveniet ipsam distinctio tempore aspernatur assumenda a modi ad autem dignissimos accusamus libero esse, praesentium neque quo. Quae, laboriosam quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto at eaque blanditiis odit rem qui omnis ipsam, voluptatibus minima incidunt rerum iste eum totam cum officia odio velit iure ea!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi, autem sint ab illum quasi quo laudantium ipsum maiores necessitatibus. Voluptate, similique suscipit! Impedit facere optio laudantium inventore facilis consectetur amet!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus architecto ad nostrum laudantium similique quos tenetur quo ab! Cumque fuga veniam aliquam illo hic vitae quasi numquam, quidem cupiditate vel.</p>
+</body>
+</html>
